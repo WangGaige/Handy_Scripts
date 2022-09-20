@@ -1,3 +1,4 @@
+# this script is coming form this link https://www.pythontutorial.net/python-basics/python-write-csv-file/
 import csv
 
 # open the file in the write mode
