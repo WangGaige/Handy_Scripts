@@ -1,4 +1,4 @@
-### python to word/ppt/excel 自动化办公
+### python to word/ppt/excel 自动化办公 🙃 ***只能新建，不能编辑***
 > https://python-docx.readthedocs.io/en/latest/user/quickstart.html
 
 ### office resource management 图片管理 🙃 ***不可行，视频和图片都得重新复制一遍，占内存太大***
