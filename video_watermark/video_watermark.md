@@ -8,3 +8,9 @@
 > if you have multiple videos to process parallel, you can open multiple CMD windows.
 
 ffmpeg -i input.mp4 -i logo.png -filter_complex "overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2" -codec:a copy output.mp4
+
+## logo.png的生成技巧
+- 打开PPT，插入文本框
+- 设置文本框的长宽和实际视频的长宽成比例
+- 设置文本框里面的字体大小
+- save as png
