@@ -62,3 +62,17 @@ print(np.stack((a, b), axis=0))
 ##############################矩阵转置######################################
 np1.T
 np1.transpose()
+##############################3D矩阵旋转######################################
+AAA=gx[100:228,100:228,300:428]
+BBB=np.rot90(AAA).copy()
+from matplotlib.colors import Normalize
+from PIL import Image
+from skimage.morphology import skeletonize, thin
+import skimage
+
+fig = plt.figure(figsize=(10,5))
+p1 = plt.subplot(1, 2, 1)
+p1.imshow(AAA[:,:,5],aspect=1,cmap=plt.cm.gray)
+p2 = plt.subplot(1,2,2)
+p2.imshow(BBB[:,:,5],aspect=1,cmap=plt.cm.gray)
+############################################################
