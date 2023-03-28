@@ -13,6 +13,7 @@ ffmpeg -i input.mp4 -i logo.png -filter_complex "overlay=(main_w-overlay_w)/2:(m
 - 打开PPT，插入文本框
 - 设置文本框的长宽和实际视频的长宽成比例
 - 设置文本框里面的字体大小
+- 透明度设置
 - save as png
 
 ## 加快效率的技巧
